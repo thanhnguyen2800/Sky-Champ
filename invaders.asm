@@ -1,7 +1,3 @@
-;
-; Invaders in 512 bytes
-; ... (header giữ nguyên)
-;
 
     %ifndef pure8088
 pure8088:       equ 1
