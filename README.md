@@ -2,12 +2,19 @@
 Invaders512 là bản cài đặt trò chơi Space Invaders kinh điển, được viết hoàn toàn bằng x86 Assembly và có kích thước nhỏ đến mức có thể nhét vừa vào một boot sector 512 bytes. Game chạy trên chế độ đồ hoạ VGA 320×200×256 màu (Mode 13h).
 
 ✨ Tính năng
+
 🎮 Gameplay hoàn chỉnh — 55 invader trên 5 hàng, di chuyển và tấn công
+
 🔫 Invader có thể bắn lại — đạn invader rơi ngẫu nhiên xuống người chơi
+
 💥 Hiệu ứng nổ — cả tàu vũ trụ và invader đều có animation nổ
+
 🛡️ Hàng rào chắn đạn — 5 barrier bảo vệ người chơi
+
 ⚡ Tốc độ tăng dần — invader tăng tốc khi bị tiêu diệt bớt
+
 🏆 Hiển thị điểm số — điểm hiện tại luôn hiển thị ở góc trái trên 
+
 
 🕹️ Điều khiển
 Phím	Hành động
@@ -41,6 +48,7 @@ Chạy trên DOSBox
 
 dosbox invaders.com
 📁 Cấu trúc dự án
+
 
 invaders512/
 ├── invaders.asm        # Source code Assembly chính
